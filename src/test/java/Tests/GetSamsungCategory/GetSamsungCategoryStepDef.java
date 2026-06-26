@@ -19,7 +19,7 @@ public class GetSamsungCategoryStepDef extends BaseTest {
     @Given("open noon website")
     public void openNoonWebsite() {
         WebDriverFactory.getDriver("chrome").get(jsonFileManager.getValue("url"));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(searchBar));
+        openNoonPage.getNoonPage();
         log.debug("Open noon website");
     }
 

@@ -12,6 +12,8 @@ import io.cucumber.java.Scenario;
 import io.qameta.allure.Allure;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.examples.FilterByRangeAndRatingsPage;
+import org.examples.OpenNoonPage;
 import org.examples.SamsungCategoryPage;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
@@ -33,7 +35,9 @@ public class HooksHandler extends BaseTest {
         softAssert = new SoftAssert();
         log.debug("Assertion Manager Initialized");
         log.debug("config Manager Initialized");
+        openNoonPage = new OpenNoonPage(driver);
         samsungCategoryPage = new SamsungCategoryPage(driver);
+        filterByRangeAndRatingsPage = new FilterByRangeAndRatingsPage(driver);
     }
 
     @After

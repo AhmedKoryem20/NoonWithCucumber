@@ -109,35 +109,3 @@
 2026-06-26 22:57:49 INFO  FilterByPriceAndRecommendationsStepDef:26 - Wait until category menu is open
 2026-06-26 22:57:55 DEBUG FilterByPriceAndRecommendationsStepDef:28 - Click Samsung in brand
 2026-06-26 22:58:08 DEBUG FilterByPriceAndRecommendationsStepDef:41 - Verifying filter by price matches the result
-2026-06-26 22:59:42 DEBUG HooksHandler:36 - Assertion Manager Initialized
-2026-06-26 22:59:42 DEBUG HooksHandler:37 - config Manager Initialized
-2026-06-26 22:59:53 DEBUG FilterByPriceAndRecommendationsStepDef:20 - Open noon website
-2026-06-26 22:59:53 DEBUG FilterByPriceAndRecommendationsStepDef:25 - Move to category option
-2026-06-26 22:59:53 INFO  FilterByPriceAndRecommendationsStepDef:26 - Wait until category menu is open
-2026-06-26 23:00:06 DEBUG FilterByPriceAndRecommendationsStepDef:28 - Click Samsung in brand
-2026-06-26 23:00:17 DEBUG FilterByPriceAndRecommendationsStepDef:42 - Verifying filter by price matches the result
-2026-06-26 23:05:41 DEBUG HooksHandler:36 - Assertion Manager Initialized
-2026-06-26 23:05:41 DEBUG HooksHandler:37 - config Manager Initialized
-2026-06-26 23:05:53 DEBUG FilterByPriceAndRecommendationsStepDef:21 - Open noon website
-2026-06-26 23:05:53 DEBUG FilterByPriceAndRecommendationsStepDef:26 - Move to category option
-2026-06-26 23:05:53 INFO  FilterByPriceAndRecommendationsStepDef:27 - Wait until category menu is open
-2026-06-26 23:05:59 DEBUG FilterByPriceAndRecommendationsStepDef:29 - Click Samsung in brand
-2026-06-26 23:06:09 DEBUG FilterByPriceAndRecommendationsStepDef:43 - Verifying filter by price matches the result
-2026-06-26 23:14:40 DEBUG HooksHandler:36 - Assertion Manager Initialized
-2026-06-26 23:14:40 DEBUG HooksHandler:37 - config Manager Initialized
-2026-06-26 23:14:50 DEBUG FilterByPriceAndRecommendationsStepDef:21 - Open noon website
-2026-06-26 23:14:50 DEBUG FilterByPriceAndRecommendationsStepDef:26 - Move to category option
-2026-06-26 23:14:50 INFO  FilterByPriceAndRecommendationsStepDef:27 - Wait until category menu is open
-2026-06-26 23:14:53 DEBUG FilterByPriceAndRecommendationsStepDef:29 - Click Samsung in brand
-2026-06-26 23:15:05 DEBUG FilterByPriceAndRecommendationsStepDef:43 - Verifying filter by price matches the result
-2026-06-26 23:32:06 DEBUG HooksHandler:36 - Assertion Manager Initialized
-2026-06-26 23:32:06 DEBUG HooksHandler:37 - config Manager Initialized
-2026-06-26 23:32:31 DEBUG HooksHandler:36 - Assertion Manager Initialized
-2026-06-26 23:32:31 DEBUG HooksHandler:37 - config Manager Initialized
-2026-06-26 23:33:07 DEBUG HooksHandler:36 - Assertion Manager Initialized
-2026-06-26 23:33:07 DEBUG HooksHandler:37 - config Manager Initialized
-2026-06-26 23:33:20 DEBUG FilterByPriceAndRecommendationsStepDef:22 - Open noon website
-2026-06-26 23:33:20 DEBUG FilterByPriceAndRecommendationsStepDef:27 - Move to category option
-2026-06-26 23:33:20 INFO  FilterByPriceAndRecommendationsStepDef:28 - Wait until category menu is open
-2026-06-26 23:33:23 DEBUG FilterByPriceAndRecommendationsStepDef:30 - Click Samsung in brand
-2026-06-26 23:33:39 DEBUG FilterByPriceAndRecommendationsStepDef:46 - Verifying filter by price matches the result
