@@ -8,34 +8,28 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SelectItemsPage extends BasePage{
-    private By Item1 = By.xpath("//h2[contains(@title,'ONIKUMA K9')]/following::button[contains(@class,'atcCta')][3]");
-    private By Item2 = By.xpath("//h2[contains(@title,'onikuma X15')]/following::button[contains(@class,'atcCta')][7]");
-    private By Item3 = By.xpath("//h2[contains(@title,'ONIKUMA K9')]/following::button[contains(@class,'atcCta')][16]");
+
+
     public List<String> selectedTitles = new ArrayList<>();
     public SelectItemsPage(WebDriver driver) {
         super(driver);
     }
 
-    public void pickItems(){
 
-            selectedTitles.add(clickAndGetTitle(Item1));
-            selectedTitles.add(clickAndGetTitle(Item2));
-            selectedTitles.add(clickAndGetTitle(Item3));
+
+    public void clickAddToCart(String productKeyword) {
+        driver.findElement(By.xpath(
+                "//div[contains(@data-qa,'" + productKeyword + "')]//button[.//img[@alt='add-to-cart']]"
+        )).click();
     }
 
-    private String clickAndGetTitle(By itemButton) {
+    public void pickItems(String item1 , String item2, String item3) {
 
-        WebElement button = findElement(itemButton);
+        clickAddToCart(item1);
+        clickAddToCart(item2);
+        clickAddToCart(item3);
 
-        WebElement productCard = button.findElement(
-                By.xpath("./ancestor::div[.//h2[@data-qa='plp-product-box-name']][1]")
-        );
-
-        String title = productCard.findElement(
-                By.xpath(".//h2[@data-qa='plp-product-box-name']")
-        ).getText().trim();
-
-        button.click();
-        return title;
     }
+
+
 }
