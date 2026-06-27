@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Noon E-Commerce Suite">
+
+
+    <test name="Navigating to the Samsung brand's page">
+        <classes>
+            <class name="Tests.GetSamsungCategory.GetSamsungCategoryRunnerTest"/>
+        </classes>
+    </test>
+
+    <test name="Filtering the results within range of price and recommendations">
+        <classes>
+            <class name="Tests.FilterByPriceAndRecommendations.FilterByPriceAndRecommendationsRunnerTest"/>
+        </classes>
+    </test>
+
+    <test name="Adding multiple items to the cart and verifying the order details">
+        <classes>
+            <class name="Tests.AddMultipleProductsToCart.AddMultipleProductsToCartRunnerTest"/>
+        </classes>
+    </test>
+
+
+
+
+
+</suite>
