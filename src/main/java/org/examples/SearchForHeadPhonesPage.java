@@ -17,10 +17,7 @@ public class SearchForHeadPhonesPage extends BasePage {
         findElement(searchBar).sendKeys(headPhones);
         doEnterAction();
     }
-    public void doEnterAction() {
-        Actions action = new Actions(driver);
-        action.sendKeys(Keys.ENTER).perform();
-    }
+
     public String isHeadPhonesDisplayed() {
         return findElement(searchResult).getText();
     }
