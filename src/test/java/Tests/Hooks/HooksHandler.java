@@ -12,9 +12,7 @@ import io.cucumber.java.Scenario;
 import io.qameta.allure.Allure;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.examples.FilterByRangeAndRatingsPage;
-import org.examples.OpenNoonPage;
-import org.examples.SamsungCategoryPage;
+import org.examples.*;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
 
@@ -38,6 +36,10 @@ public class HooksHandler extends BaseTest {
         openNoonPage = new OpenNoonPage(driver);
         samsungCategoryPage = new SamsungCategoryPage(driver);
         filterByRangeAndRatingsPage = new FilterByRangeAndRatingsPage(driver);
+        selectItemsPage = new SelectItemsPage(driver);
+        goToCartPage = new GoToCartPage(driver);
+        verifyOrderDetailsPage = new VerifyOrderDetailsPage(driver);
+        searchForHeadPhonesPage = new SearchForHeadPhonesPage(driver);
     }
 
     @After
