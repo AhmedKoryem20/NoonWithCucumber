@@ -1,7 +1,9 @@
 {
 "url" : "https://www.noon.com/egypt-en/",
-"samsungCategory" : "//*[@id=\"default-header-desktop\"]/div[1]/div/div/div/div/div/div[2]/ul/li[1]/div/div/div[3]/div/ul/li[2]/a/img",
 "maximumValue" : "3000",
 "minimumValue" : "1000",
-  "browser" : "chrome"
+  "browser" : "chrome",
+  "ITEM_1": "XS-651",
+   "ITEM_2" : "Tune 510Bt",
+   "ITEM_3" : "SD-1121"
 }
