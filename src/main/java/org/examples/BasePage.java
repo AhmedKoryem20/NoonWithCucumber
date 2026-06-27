@@ -1,6 +1,7 @@
 package org.examples;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -19,9 +20,13 @@ public class BasePage {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 
     }
-    public void moveToSpecificItem(By  locator1){
+    public void moveToSpecificItem(By  locator){
         Actions actions = new Actions(driver);
-        WebElement element = driver.findElement(locator1);
+        WebElement element = driver.findElement(locator);
         actions.moveToElement(element).perform();
+    }
+    public void doEnterAction() {
+        Actions action = new Actions(driver);
+        action.sendKeys(Keys.ENTER).perform();
     }
 }
