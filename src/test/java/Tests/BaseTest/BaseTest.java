@@ -17,6 +17,10 @@ public class BaseTest{
     protected static OpenNoonPage openNoonPage;
     protected static SamsungCategoryPage samsungCategoryPage;
     protected static FilterByRangeAndRatingsPage filterByRangeAndRatingsPage;
+    protected static SearchForHeadPhonesPage searchForHeadPhonesPage;
+    protected static SelectItemsPage selectItemsPage;
+    protected static GoToCartPage goToCartPage;
+    protected static VerifyOrderDetailsPage verifyOrderDetailsPage;
     public By productPrice = By.xpath("//strong[contains(@class,'Price-module')]");
 
     }
