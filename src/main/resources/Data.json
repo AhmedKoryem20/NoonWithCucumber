@@ -1,10 +1,13 @@
 {
-"url" : "https://www.noon.com/egypt-en/",
-"maximumValue" : "3000",
-"minimumValue" : "1000",
-  "browser" : "chrome",
-  "ITEM_1": "XS-651",
-   "ITEM_2" : "XS-652",
-   "ITEM_3" : "Tune 510Bt",
-  "removedItem" : "Tune 510Bt"
+  "url"               : "https://www.noon.com/egypt-en/",
+  "maximumValue"      : "3000",
+  "minimumValue"      : "1000",
+  "browser"           : "chrome",
+  "emptyMin"          : " ",
+  "emptyMax"          : " ",
+  "zeroMin"           : "0",
+  "zeroMax"           : "0",
+  "negativeMin"       : "-1000",
+  "negativeMax"       : "-2000",
+  "minGreaterThanMax" : "5000"
 }
