@@ -1,7 +1,6 @@
 package Tests.Hooks;
 
 import Tests.BaseTest.BaseTest;
-import Tests.ConfigHandler;
 import Tests.Drivers.WebDriverFactory;
 import Tests.JSONFileManager;
 import Tests.ScreenShot;
@@ -14,6 +13,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.examples.*;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
 import org.testng.asserts.SoftAssert;
 
 import java.io.File;
@@ -26,13 +26,11 @@ public class HooksHandler extends BaseTest {
 
     @Before
     public void setUp() {
-        configHandler = new ConfigHandler("src/main/resources/config.properties");
         jsonFileManager = new JSONFileManager("src/main/resources/Data.json");
         driver = WebDriverFactory.getDriver(jsonFileManager.getValue("browser"));
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         softAssert = new SoftAssert();
         log.debug("Assertion Manager Initialized");
-        log.debug("config Manager Initialized");
         openNoonPage = new OpenNoonPage(driver);
         samsungCategoryPage = new SamsungCategoryPage(driver);
         filterByRangeAndRatingsPage = new FilterByRangeAndRatingsPage(driver);
@@ -58,4 +56,5 @@ public class HooksHandler extends BaseTest {
             Allure.addAttachment("ScreenShot" , new FileInputStream(scrshoot));
         }
     }
+
 }
