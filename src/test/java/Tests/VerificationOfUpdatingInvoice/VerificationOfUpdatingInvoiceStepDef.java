@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class VerificationOfUpdatingInvoiceStepDef extends BaseTest {
     private static final Logger log = LogManager.getLogger(VerificationOfUpdatingInvoiceStepDef.class);
-    double invoiceTotalPriceAfterRemovingItem;
+    double sumTotalPriceAfterRemovingItem;
 
     @Given("noon website opened")
     public void noonWebSiteOpened() {
@@ -33,12 +33,10 @@ public class VerificationOfUpdatingInvoiceStepDef extends BaseTest {
         log.info("headphones result is true");
     }
 
-    @And("user added some items to cart {string} {string} {string}")
-    public void userAddedSomeItemsToCart(String item1 , String item2, String item3) {
+    @And("user added some items to cart")
+    public void userAddedSomeItemsToCart() {
         log.info("User is adding items to cart");
-        selectItemsPage.pickItems(jsonFileManager.getValue(item1)
-                , jsonFileManager.getValue(item2),
-                jsonFileManager.getValue(item3));
+        selectItemsPage.pickItems(3);
         log.info("Items added successfully");
     }
 
@@ -49,12 +47,12 @@ public class VerificationOfUpdatingInvoiceStepDef extends BaseTest {
         log.info("Navigated to Cart page");
     }
 
-    @And("user removed {string}")
-    public void userRemoved(String itemName) {
+    @And("user removed item")
+    public void userRemovedItem() throws InterruptedException {
         log.info("User is removed items from cart");
-        selectItemsPage.removeItem(jsonFileManager.getValue(itemName));
+        selectItemsPage.removeItem(2);
         log.info("Getting the sum of products after removing item");
-        invoiceTotalPriceAfterRemovingItem = verifyOrderDetailsPage.getTheSumOfProducts();
+        sumTotalPriceAfterRemovingItem = verifyOrderDetailsPage.getTheSumOfProducts();
         log.info("Items removed successfully");
     }
 
@@ -65,7 +63,7 @@ public class VerificationOfUpdatingInvoiceStepDef extends BaseTest {
         log.info("Getting the total invoice to compare " +
                 "it with the sum of products after removing item");
 
-        softAssert.assertEquals(updatedInvoiceTotalPrice,invoiceTotalPriceAfterRemovingItem,0.01,
+        softAssert.assertEquals(updatedInvoiceTotalPrice,sumTotalPriceAfterRemovingItem,0.01,
                 "The updated invoice is miscalculated");
         softAssert.assertAll();
 
