@@ -26,6 +26,12 @@
         </classes>
     </test>
 
+    <test name="Verifying the error message in filter by price">
+        <classes>
+            <class name="Tests.FilterByPriceWithInvalidCredentials.FilterByPriceWithInvalidCredentialsRunnerTest"/>
+        </classes>
+    </test>
+
 
 
 
