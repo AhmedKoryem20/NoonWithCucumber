@@ -1,7 +1,6 @@
 package Tests.FilterByPriceAndRecommendations;
 import Tests.BaseTest.BaseTest;
 import Tests.Drivers.WebDriverFactory;
-import Tests.GetSamsungCategory.GetSamsungCategoryStepDef;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -51,7 +50,7 @@ public class FilterByPriceAndRecommendationsStepDef extends BaseTest {
         log.info("Waiting for the filtered products to become visible.");
         wait.until(ExpectedConditions.visibilityOfElementLocated(productPrice));
         log.info("Verifying that all displayed products are within the selected price range.");
-        softAssert.assertTrue(filterByRangeAndRatingsPage.verifyPorductsPricesAreInRange(jsonFileManager.getValue(min), jsonFileManager.getValue(max)),
+        softAssert.assertTrue(filterByRangeAndRatingsPage.verifyProductsPricesAreInRange(jsonFileManager.getValue(min), jsonFileManager.getValue(max)),
                 "Some displayed products are outside the selected price range.");
         softAssert.assertAll();
         log.info("Price range verification completed successfully.");
