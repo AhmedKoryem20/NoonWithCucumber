@@ -18,39 +18,37 @@ public class SelectItemsPage extends BasePage{
 
 
 
-    public void clickAddToCart(String productKeyword) {
+    public void clickAddToCart(int noOfProducts) {
         WebDriverWait wait = new WebDriverWait(driver , Duration.ofSeconds(20));
-        WebElement addToCartBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[contains(@data-qa,'" + productKeyword + "')]//button[.//img[@alt='add-to-cart']]")));
-        addToCartBtn.click();
-    }
-
-    public void pickItems(String item1 , String item2, String item3) {
-
-        clickAddToCart(item1);
-        clickAddToCart(item2);
-        clickAddToCart(item3);
+        List<WebElement> addToCartButtons = driver.findElements(By.xpath("//button[.//img[@alt='add-to-cart']]"));
+        for (int i = 0; i < noOfProducts ; i++) {
+            WebElement button = addToCartButtons.get(i);
+            wait.until(ExpectedConditions.elementToBeClickable(button)).click();
+        }
 
     }
-    public void clickRemoveItem(String productKeyword) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-       WebElement removeFromCartBtn =  wait.until(ExpectedConditions.elementToBeClickable(By.xpath(
-               "//div[contains(@class,'CartItemDesktop')][.//div[contains(@class,'__title')]//*[contains(text(),'"
-                       + productKeyword + "')]]//button[@data-qa='cart-remove_item']")));
-       removeFromCartBtn.click();
+
+    public void pickItems(int  noOfProducts) {
+
+        clickAddToCart(noOfProducts);
+
+    }
+    public void clickRemoveItem(int locationInCart) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+        List <WebElement> removeButtons = driver.findElements(By.xpath(
+                "//button[@data-qa='cart-remove_item']"));
+
+            WebElement button = removeButtons.get(locationInCart);
+            wait.until(ExpectedConditions.elementToBeClickable(button));
+            button.click();
+            wait.until(ExpectedConditions.stalenessOf(button));
     }
 
-    public void removeItem(String item) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+    public void removeItem(int locationInCart) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(
+                "//div[normalize-space()='Order Summary']")));
+        clickRemoveItem(locationInCart);
 
-        By productCard = By.xpath(
-                "//div[contains(@class,'CartItemDesktop')]" +
-                        "[.//div[contains(@class,'__title')]//*[contains(text(),'" + item + "')]]"
-        );
-
-        clickRemoveItem(item);
-
-        wait.until(ExpectedConditions.invisibilityOfElementLocated(productCard));
     }
-
-
 }
