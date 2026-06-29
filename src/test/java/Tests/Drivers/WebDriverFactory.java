@@ -20,4 +20,15 @@ public class WebDriverFactory {
         }
         return driver;
     }
+public  static void setDriver(WebDriver newDriver) {
+        driver = newDriver;
+}
+
+    public static void quitDriver() {
+        if(driver != null) {
+            driver.quit();
+            driver = null;
+            ChromeDriverClass.resetDriver();
+        }
+    }
 }
