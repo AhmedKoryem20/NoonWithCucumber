@@ -20,6 +20,12 @@
         </classes>
     </test>
 
+    <test name="Verification of updating invoice">
+        <classes>
+            <class name="Tests.VerificationOfUpdatingInvoice.VerificationOfUpdatingInvoiceRunnerTest"/>
+        </classes>
+    </test>
+
 
 
 
