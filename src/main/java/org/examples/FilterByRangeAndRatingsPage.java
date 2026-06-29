@@ -1,6 +1,7 @@
 package org.examples;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -50,7 +51,7 @@ public class FilterByRangeAndRatingsPage extends  BasePage {
 
     }
 
-    public boolean verifyPorductsPricesAreInRange(String minPrice, String maxPrice) {
+    public boolean verifyProductsPricesAreInRange(String minPrice, String maxPrice) {
         int min = Integer.parseInt(minPrice);
         int max = Integer.parseInt(maxPrice);
         List<WebElement> prices = driver.findElements(productPrice);
@@ -63,5 +64,37 @@ public class FilterByRangeAndRatingsPage extends  BasePage {
         }
         return true;
     }
+
+    public String getValidationError(String expectedError) {
+        By errorMessage = By.xpath("//p[contains(@class,'__error') and normalize-space()='" + expectedError + "']");
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        WebElement error =  wait.until(ExpectedConditions.visibilityOfElementLocated(errorMessage));
+        return error.getText();
+    }
+
+
+    public void provideAmountOfMoneyWithInvalidCredentials(String min, String max) {
+    WebElement minInput = findElement(minimumAmountOfMoney);
+    WebElement maxInput = findElement(maxmimumAmountOfMoney);
+    minInput.click();
+    minInput.sendKeys(Keys.CONTROL, "a");
+    minInput.sendKeys(Keys.DELETE);
+    if (!min.isBlank()) {
+        minInput.sendKeys(min);
+    }
+    minInput.sendKeys(Keys.TAB);
+
+    maxInput.click();
+    maxInput.sendKeys(Keys.CONTROL, "a");
+    maxInput.sendKeys(Keys.DELETE);
+
+    if (!max.isBlank()) {
+        maxInput.sendKeys(max);
+    }
+
+    maxInput.sendKeys(Keys.TAB);
+}
+
+
 }
 
