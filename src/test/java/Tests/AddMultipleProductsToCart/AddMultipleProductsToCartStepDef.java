@@ -27,12 +27,10 @@ public class AddMultipleProductsToCartStepDef extends BaseTest {
         softAssert.assertAll();
         log.info("headphones result is true");
     }
-    @And("add {string} and {string} and {string}")
-    public void AddAndAnd(String item1, String item2, String item3) {
+    @And("add your items")
+    public void addYourItems() {
         log.info("Adding items to cart");
-        selectItemsPage.pickItems(jsonFileManager.getValue(item1)
-                , jsonFileManager.getValue(item2),
-                jsonFileManager.getValue(item3));
+        selectItemsPage.pickItems(3);
         log.info("Items added successfully");
     }
 
