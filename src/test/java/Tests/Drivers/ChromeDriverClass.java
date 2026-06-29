@@ -12,8 +12,15 @@ public class ChromeDriverClass extends WebDriverFactory {
             options.addArguments("--incognito");
             driver = new ChromeDriver(options);
             driver.manage().window().maximize();
+            WebDriverFactory.setDriver(driver);
         }
         return driver;
+
+    }
+
+    public  static void resetDriver()
+    {
+        driver =null;
 
     }
 }
