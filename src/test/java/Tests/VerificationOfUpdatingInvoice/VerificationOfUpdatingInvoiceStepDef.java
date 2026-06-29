@@ -8,8 +8,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+
 
 public class VerificationOfUpdatingInvoiceStepDef extends BaseTest {
     private static final Logger log = LogManager.getLogger(VerificationOfUpdatingInvoiceStepDef.class);
