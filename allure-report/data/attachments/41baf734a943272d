@@ -1,0 +1,105 @@
+2026-06-29 05:25:14 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 05:25:14 INFO  AddMultipleProductsToCartStepDef:16 - Opening Noon website
+2026-06-29 05:25:24 INFO  AddMultipleProductsToCartStepDef:19 - Noon website opened successfully
+2026-06-29 05:25:24 INFO  AddMultipleProductsToCartStepDef:23 - Searching for headphones in search field
+2026-06-29 05:25:37 INFO  AddMultipleProductsToCartStepDef:28 - headphones result is true
+2026-06-29 05:25:37 INFO  AddMultipleProductsToCartStepDef:32 - Adding items to cart
+2026-06-29 05:25:44 INFO  AddMultipleProductsToCartStepDef:36 - Items added successfully
+2026-06-29 05:25:44 INFO  AddMultipleProductsToCartStepDef:41 - Going to cart page
+2026-06-29 05:25:52 INFO  AddMultipleProductsToCartStepDef:46 - Navigated to cart page successfully
+2026-06-29 05:25:52 INFO  AddMultipleProductsToCartStepDef:50 - Verifying added products invoice
+2026-06-29 05:25:52 INFO  AddMultipleProductsToCartStepDef:53 - Verifying Order details
+2026-06-29 05:25:52 INFO  AddMultipleProductsToCartStepDef:56 - Order Summary is successfully verified
+2026-06-29 05:25:53 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 05:25:53 INFO  FilterByPriceAndRecommendationsStepDef:20 - Open noon website
+2026-06-29 05:25:57 INFO  FilterByPriceAndRecommendationsStepDef:23 - Open noon page successful
+2026-06-29 05:25:57 DEBUG FilterByPriceAndRecommendationsStepDef:28 - Move to category option
+2026-06-29 05:25:57 INFO  FilterByPriceAndRecommendationsStepDef:29 - Wait until category menu is open
+2026-06-29 05:26:03 DEBUG FilterByPriceAndRecommendationsStepDef:31 - Click Samsung in brand
+2026-06-29 05:26:08 INFO  FilterByPriceAndRecommendationsStepDef:37 - Move to category option successful
+2026-06-29 05:26:08 INFO  FilterByPriceAndRecommendationsStepDef:44 - Opening the Price filter.
+2026-06-29 05:26:09 INFO  FilterByPriceAndRecommendationsStepDef:47 - Applying price filter: Min & Max
+2026-06-29 05:26:13 INFO  FilterByPriceAndRecommendationsStepDef:49 - Waiting for the product list to refresh after applying the price filter.
+2026-06-29 05:26:15 INFO  FilterByPriceAndRecommendationsStepDef:51 - Waiting for the filtered products to become visible.
+2026-06-29 05:26:15 INFO  FilterByPriceAndRecommendationsStepDef:53 - Verifying that all displayed products are within the selected price range.
+2026-06-29 05:26:17 INFO  FilterByPriceAndRecommendationsStepDef:57 - Price range verification completed successfully.
+2026-06-29 05:26:18 INFO  FilterByPriceAndRecommendationsStepDef:63 - Opening the sorting filter.
+2026-06-29 05:26:18 INFO  FilterByPriceAndRecommendationsStepDef:66 - Result sorted by best rated successfully.
+2026-06-29 05:26:18 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 05:26:22 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-29 05:26:23 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-29 05:26:23 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-29 05:26:28 DEBUG GetSamsungCategoryStepDef:35 - Click Samsung in brand
+2026-06-29 05:26:34 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 05:26:34 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Opening website
+2026-06-29 05:26:37 INFO  VerificationOfUpdatingInvoiceStepDef:23 - Noon website opened
+2026-06-29 05:26:37 INFO  VerificationOfUpdatingInvoiceStepDef:28 - Checking for product
+2026-06-29 05:26:48 INFO  VerificationOfUpdatingInvoiceStepDef:33 - headphones result is true
+2026-06-29 05:26:48 INFO  VerificationOfUpdatingInvoiceStepDef:38 - User is adding items to cart
+2026-06-29 05:36:19 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 05:36:19 INFO  AddMultipleProductsToCartStepDef:16 - Opening Noon website
+2026-06-29 05:36:30 INFO  AddMultipleProductsToCartStepDef:19 - Noon website opened successfully
+2026-06-29 05:36:31 INFO  AddMultipleProductsToCartStepDef:23 - Searching for headphones in search field
+2026-06-29 05:36:32 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 05:36:32 INFO  FilterByPriceAndRecommendationsStepDef:20 - Open noon website
+2026-06-29 05:36:32 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 05:36:32 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 05:36:32 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Opening website
+2026-06-29 05:38:17 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 05:38:17 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Opening website
+2026-06-29 05:38:27 INFO  VerificationOfUpdatingInvoiceStepDef:23 - Noon website opened
+2026-06-29 05:38:27 INFO  VerificationOfUpdatingInvoiceStepDef:28 - Checking for product
+2026-06-29 05:38:43 INFO  VerificationOfUpdatingInvoiceStepDef:33 - headphones result is true
+2026-06-29 05:38:43 INFO  VerificationOfUpdatingInvoiceStepDef:38 - User is adding items to cart
+2026-06-29 05:38:50 INFO  VerificationOfUpdatingInvoiceStepDef:42 - Items added successfully
+2026-06-29 05:38:50 INFO  VerificationOfUpdatingInvoiceStepDef:47 - Navigating cart page
+2026-06-29 05:38:52 INFO  VerificationOfUpdatingInvoiceStepDef:49 - Navigated to Cart page
+2026-06-29 05:38:52 INFO  VerificationOfUpdatingInvoiceStepDef:54 - User is removed items from cart
+2026-06-29 05:39:02 INFO  VerificationOfUpdatingInvoiceStepDef:56 - Getting the sum of products after removing item
+2026-06-29 05:39:02 INFO  VerificationOfUpdatingInvoiceStepDef:58 - Items removed successfully
+2026-06-29 05:39:02 INFO  VerificationOfUpdatingInvoiceStepDef:63 - Verifying that the invoice updated
+2026-06-29 05:39:02 INFO  VerificationOfUpdatingInvoiceStepDef:65 - Getting the total invoice to compare it with the sum of products after removing item
+2026-06-29 05:39:02 INFO  VerificationOfUpdatingInvoiceStepDef:72 - Invoice updated successfully
+2026-06-29 05:40:32 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 05:40:42 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-29 05:40:42 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-29 05:40:42 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-29 05:40:51 DEBUG GetSamsungCategoryStepDef:35 - Click Samsung in brand
+2026-06-29 05:40:58 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 05:40:58 INFO  FilterByPriceAndRecommendationsStepDef:20 - Open noon website
+2026-06-29 05:41:02 INFO  FilterByPriceAndRecommendationsStepDef:23 - Open noon page successful
+2026-06-29 05:41:02 DEBUG FilterByPriceAndRecommendationsStepDef:28 - Move to category option
+2026-06-29 05:41:02 INFO  FilterByPriceAndRecommendationsStepDef:29 - Wait until category menu is open
+2026-06-29 05:41:10 DEBUG FilterByPriceAndRecommendationsStepDef:31 - Click Samsung in brand
+2026-06-29 05:41:14 INFO  FilterByPriceAndRecommendationsStepDef:37 - Move to category option successful
+2026-06-29 05:41:14 INFO  FilterByPriceAndRecommendationsStepDef:44 - Opening the Price filter.
+2026-06-29 05:41:16 INFO  FilterByPriceAndRecommendationsStepDef:47 - Applying price filter: Min & Max
+2026-06-29 05:41:19 INFO  FilterByPriceAndRecommendationsStepDef:49 - Waiting for the product list to refresh after applying the price filter.
+2026-06-29 05:41:21 INFO  FilterByPriceAndRecommendationsStepDef:51 - Waiting for the filtered products to become visible.
+2026-06-29 05:41:21 INFO  FilterByPriceAndRecommendationsStepDef:53 - Verifying that all displayed products are within the selected price range.
+2026-06-29 05:41:24 INFO  FilterByPriceAndRecommendationsStepDef:57 - Price range verification completed successfully.
+2026-06-29 05:41:24 INFO  FilterByPriceAndRecommendationsStepDef:63 - Opening the sorting filter.
+2026-06-29 05:41:24 INFO  FilterByPriceAndRecommendationsStepDef:66 - Result sorted by best rated successfully.
+2026-06-29 05:41:25 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 05:41:25 INFO  AddMultipleProductsToCartStepDef:16 - Opening Noon website
+2026-06-29 05:41:29 INFO  AddMultipleProductsToCartStepDef:19 - Noon website opened successfully
+2026-06-29 05:41:29 INFO  AddMultipleProductsToCartStepDef:23 - Searching for headphones in search field
+2026-06-29 05:41:42 INFO  AddMultipleProductsToCartStepDef:28 - headphones result is true
+2026-06-29 05:41:42 INFO  AddMultipleProductsToCartStepDef:32 - Adding items to cart
+2026-06-29 05:41:50 INFO  AddMultipleProductsToCartStepDef:36 - Items added successfully
+2026-06-29 05:41:50 INFO  AddMultipleProductsToCartStepDef:41 - Going to cart page
+2026-06-29 05:42:01 INFO  AddMultipleProductsToCartStepDef:46 - Navigated to cart page successfully
+2026-06-29 05:42:01 INFO  AddMultipleProductsToCartStepDef:50 - Verifying added products invoice
+2026-06-29 05:42:02 INFO  AddMultipleProductsToCartStepDef:53 - Verifying Order details
+2026-06-29 05:42:02 INFO  AddMultipleProductsToCartStepDef:56 - Order Summary is successfully verified
+2026-06-29 05:42:02 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 05:42:02 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Opening website
+2026-06-29 05:42:06 INFO  VerificationOfUpdatingInvoiceStepDef:23 - Noon website opened
+2026-06-29 05:42:06 INFO  VerificationOfUpdatingInvoiceStepDef:28 - Checking for product
+2026-06-29 05:42:18 INFO  VerificationOfUpdatingInvoiceStepDef:33 - headphones result is true
+2026-06-29 05:42:18 INFO  VerificationOfUpdatingInvoiceStepDef:38 - User is adding items to cart
+2026-06-29 05:43:36 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 05:43:46 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-29 05:43:46 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-29 05:43:46 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-29 05:43:55 DEBUG GetSamsungCategoryStepDef:35 - Click Samsung in brand

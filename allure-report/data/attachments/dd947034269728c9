@@ -1,0 +1,12 @@
+2026-06-29 05:25:14 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 05:25:14 INFO  AddMultipleProductsToCartStepDef:16 - Opening Noon website
+2026-06-29 05:25:24 INFO  AddMultipleProductsToCartStepDef:19 - Noon website opened successfully
+2026-06-29 05:25:24 INFO  AddMultipleProductsToCartStepDef:23 - Searching for headphones in search field
+2026-06-29 05:25:37 INFO  AddMultipleProductsToCartStepDef:28 - headphones result is true
+2026-06-29 05:25:37 INFO  AddMultipleProductsToCartStepDef:32 - Adding items to cart
+2026-06-29 05:25:44 INFO  AddMultipleProductsToCartStepDef:36 - Items added successfully
+2026-06-29 05:25:44 INFO  AddMultipleProductsToCartStepDef:41 - Going to cart page
+2026-06-29 05:25:52 INFO  AddMultipleProductsToCartStepDef:46 - Navigated to cart page successfully
+2026-06-29 05:25:52 INFO  AddMultipleProductsToCartStepDef:50 - Verifying added products invoice
+2026-06-29 05:25:52 INFO  AddMultipleProductsToCartStepDef:53 - Verifying Order details
+2026-06-29 05:25:52 INFO  AddMultipleProductsToCartStepDef:56 - Order Summary is successfully verified

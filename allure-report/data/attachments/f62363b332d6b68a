@@ -1,0 +1,406 @@
+2026-06-28 01:22:41 DEBUG HooksHandler:34 - Assertion Manager Initialized
+2026-06-28 01:22:41 DEBUG HooksHandler:35 - config Manager Initialized
+2026-06-28 01:22:41 INFO  AddMultipleProductsToCartStepDef:16 - Opening Noon website
+2026-06-28 01:22:50 INFO  AddMultipleProductsToCartStepDef:19 - Noon website opened successfully
+2026-06-28 01:22:50 INFO  AddMultipleProductsToCartStepDef:23 - Searching for headphones in search field
+2026-06-28 01:22:56 INFO  AddMultipleProductsToCartStepDef:28 - headphones result is true
+2026-06-28 01:22:56 INFO  AddMultipleProductsToCartStepDef:32 - Adding items to cart
+2026-06-28 01:23:01 INFO  AddMultipleProductsToCartStepDef:36 - Items added successfully
+2026-06-28 01:23:01 INFO  AddMultipleProductsToCartStepDef:41 - Going to cart page
+2026-06-28 01:23:14 INFO  AddMultipleProductsToCartStepDef:46 - Navigated to cart page successfully
+2026-06-28 01:23:14 INFO  AddMultipleProductsToCartStepDef:50 - Verifying added products invoice
+2026-06-28 01:23:15 INFO  AddMultipleProductsToCartStepDef:53 - Verifying Order details
+2026-06-28 01:23:15 INFO  AddMultipleProductsToCartStepDef:56 - Order Summary is successfully verified
+2026-06-28 01:23:15 DEBUG HooksHandler:34 - Assertion Manager Initialized
+2026-06-28 01:23:15 DEBUG HooksHandler:35 - config Manager Initialized
+2026-06-28 01:23:15 INFO  FilterByPriceAndRecommendationsStepDef:20 - Open noon website
+2026-06-28 01:23:19 INFO  FilterByPriceAndRecommendationsStepDef:23 - Open noon page successful
+2026-06-28 01:23:19 DEBUG FilterByPriceAndRecommendationsStepDef:28 - Move to category option
+2026-06-28 01:23:19 INFO  FilterByPriceAndRecommendationsStepDef:29 - Wait until category menu is open
+2026-06-28 01:23:24 DEBUG FilterByPriceAndRecommendationsStepDef:31 - Click Samsung in brand
+2026-06-28 01:23:28 INFO  FilterByPriceAndRecommendationsStepDef:37 - Move to category option successful
+2026-06-28 01:23:28 INFO  FilterByPriceAndRecommendationsStepDef:44 - Opening the Price filter.
+2026-06-28 01:23:30 INFO  FilterByPriceAndRecommendationsStepDef:47 - Applying price filter: Min & Max
+2026-06-28 01:23:33 INFO  FilterByPriceAndRecommendationsStepDef:49 - Waiting for the product list to refresh after applying the price filter.
+2026-06-28 01:23:35 INFO  FilterByPriceAndRecommendationsStepDef:51 - Waiting for the filtered products to become visible.
+2026-06-28 01:23:35 INFO  FilterByPriceAndRecommendationsStepDef:53 - Verifying that all displayed products are within the selected price range.
+2026-06-28 01:23:37 INFO  FilterByPriceAndRecommendationsStepDef:57 - Price range verification completed successfully.
+2026-06-28 01:23:37 INFO  FilterByPriceAndRecommendationsStepDef:63 - Opening the sorting filter.
+2026-06-28 01:23:38 INFO  FilterByPriceAndRecommendationsStepDef:66 - Result sorted by best rated successfully.
+2026-06-28 01:23:38 DEBUG HooksHandler:34 - Assertion Manager Initialized
+2026-06-28 01:23:38 DEBUG HooksHandler:35 - config Manager Initialized
+2026-06-28 01:23:47 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-28 01:23:47 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-28 01:23:47 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-28 01:23:50 DEBUG GetSamsungCategoryStepDef:35 - Click Samsung in brand
+2026-06-28 01:40:52 DEBUG HooksHandler:34 - Assertion Manager Initialized
+2026-06-28 01:40:52 DEBUG HooksHandler:35 - config Manager Initialized
+2026-06-28 01:40:52 INFO  AddMultipleProductsToCartStepDef:16 - Opening Noon website
+2026-06-28 01:41:01 INFO  AddMultipleProductsToCartStepDef:19 - Noon website opened successfully
+2026-06-28 01:41:01 INFO  AddMultipleProductsToCartStepDef:23 - Searching for headphones in search field
+2026-06-28 01:41:08 INFO  AddMultipleProductsToCartStepDef:28 - headphones result is true
+2026-06-28 01:41:08 INFO  AddMultipleProductsToCartStepDef:32 - Adding items to cart
+2026-06-28 01:41:14 INFO  AddMultipleProductsToCartStepDef:36 - Items added successfully
+2026-06-28 01:41:14 INFO  AddMultipleProductsToCartStepDef:41 - Going to cart page
+2026-06-28 01:41:21 INFO  AddMultipleProductsToCartStepDef:46 - Navigated to cart page successfully
+2026-06-28 01:41:21 INFO  AddMultipleProductsToCartStepDef:50 - Verifying added products invoice
+2026-06-28 01:41:21 INFO  AddMultipleProductsToCartStepDef:53 - Verifying Order details
+2026-06-28 01:41:21 INFO  AddMultipleProductsToCartStepDef:56 - Order Summary is successfully verified
+2026-06-28 01:41:21 DEBUG HooksHandler:34 - Assertion Manager Initialized
+2026-06-28 01:41:21 DEBUG HooksHandler:35 - config Manager Initialized
+2026-06-28 01:41:21 INFO  FilterByPriceAndRecommendationsStepDef:20 - Open noon website
+2026-06-28 01:41:27 INFO  FilterByPriceAndRecommendationsStepDef:23 - Open noon page successful
+2026-06-28 01:41:27 DEBUG FilterByPriceAndRecommendationsStepDef:28 - Move to category option
+2026-06-28 01:41:27 INFO  FilterByPriceAndRecommendationsStepDef:29 - Wait until category menu is open
+2026-06-28 01:41:31 DEBUG FilterByPriceAndRecommendationsStepDef:31 - Click Samsung in brand
+2026-06-28 01:41:34 INFO  FilterByPriceAndRecommendationsStepDef:37 - Move to category option successful
+2026-06-28 01:41:34 INFO  FilterByPriceAndRecommendationsStepDef:44 - Opening the Price filter.
+2026-06-28 01:41:36 INFO  FilterByPriceAndRecommendationsStepDef:47 - Applying price filter: Min & Max
+2026-06-28 01:41:41 INFO  FilterByPriceAndRecommendationsStepDef:49 - Waiting for the product list to refresh after applying the price filter.
+2026-06-28 01:41:42 INFO  FilterByPriceAndRecommendationsStepDef:51 - Waiting for the filtered products to become visible.
+2026-06-28 01:41:42 INFO  FilterByPriceAndRecommendationsStepDef:53 - Verifying that all displayed products are within the selected price range.
+2026-06-28 01:41:45 INFO  FilterByPriceAndRecommendationsStepDef:57 - Price range verification completed successfully.
+2026-06-28 01:41:45 INFO  FilterByPriceAndRecommendationsStepDef:63 - Opening the sorting filter.
+2026-06-28 01:41:46 INFO  FilterByPriceAndRecommendationsStepDef:66 - Result sorted by best rated successfully.
+2026-06-28 01:41:46 DEBUG HooksHandler:34 - Assertion Manager Initialized
+2026-06-28 01:41:46 DEBUG HooksHandler:35 - config Manager Initialized
+2026-06-28 01:41:49 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-28 01:41:49 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-28 01:41:49 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-28 01:41:55 DEBUG GetSamsungCategoryStepDef:35 - Click Samsung in brand
+2026-06-28 01:42:17 DEBUG HooksHandler:34 - Assertion Manager Initialized
+2026-06-28 01:42:17 DEBUG HooksHandler:35 - config Manager Initialized
+2026-06-28 01:42:28 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-28 01:42:28 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-28 01:42:28 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-28 01:42:34 DEBUG GetSamsungCategoryStepDef:35 - Click Samsung in brand
+2026-06-28 01:42:38 DEBUG HooksHandler:34 - Assertion Manager Initialized
+2026-06-28 01:42:38 DEBUG HooksHandler:35 - config Manager Initialized
+2026-06-28 01:42:38 INFO  FilterByPriceAndRecommendationsStepDef:20 - Open noon website
+2026-06-28 01:42:42 INFO  FilterByPriceAndRecommendationsStepDef:23 - Open noon page successful
+2026-06-28 01:42:42 DEBUG FilterByPriceAndRecommendationsStepDef:28 - Move to category option
+2026-06-28 01:42:42 INFO  FilterByPriceAndRecommendationsStepDef:29 - Wait until category menu is open
+2026-06-28 01:42:46 DEBUG FilterByPriceAndRecommendationsStepDef:31 - Click Samsung in brand
+2026-06-28 01:42:49 INFO  FilterByPriceAndRecommendationsStepDef:37 - Move to category option successful
+2026-06-28 01:42:49 INFO  FilterByPriceAndRecommendationsStepDef:44 - Opening the Price filter.
+2026-06-28 01:42:51 INFO  FilterByPriceAndRecommendationsStepDef:47 - Applying price filter: Min & Max
+2026-06-28 01:42:56 INFO  FilterByPriceAndRecommendationsStepDef:49 - Waiting for the product list to refresh after applying the price filter.
+2026-06-28 01:42:57 INFO  FilterByPriceAndRecommendationsStepDef:51 - Waiting for the filtered products to become visible.
+2026-06-28 01:42:57 INFO  FilterByPriceAndRecommendationsStepDef:53 - Verifying that all displayed products are within the selected price range.
+2026-06-28 01:43:00 INFO  FilterByPriceAndRecommendationsStepDef:57 - Price range verification completed successfully.
+2026-06-28 01:43:00 INFO  FilterByPriceAndRecommendationsStepDef:63 - Opening the sorting filter.
+2026-06-28 01:43:02 INFO  FilterByPriceAndRecommendationsStepDef:66 - Result sorted by best rated successfully.
+2026-06-28 01:43:02 DEBUG HooksHandler:34 - Assertion Manager Initialized
+2026-06-28 01:43:02 DEBUG HooksHandler:35 - config Manager Initialized
+2026-06-28 01:43:02 INFO  AddMultipleProductsToCartStepDef:16 - Opening Noon website
+2026-06-28 01:43:06 INFO  AddMultipleProductsToCartStepDef:19 - Noon website opened successfully
+2026-06-28 01:43:06 INFO  AddMultipleProductsToCartStepDef:23 - Searching for headphones in search field
+2026-06-28 01:43:14 INFO  AddMultipleProductsToCartStepDef:28 - headphones result is true
+2026-06-28 01:43:14 INFO  AddMultipleProductsToCartStepDef:32 - Adding items to cart
+2026-06-28 01:43:20 INFO  AddMultipleProductsToCartStepDef:36 - Items added successfully
+2026-06-28 01:43:20 INFO  AddMultipleProductsToCartStepDef:41 - Going to cart page
+2026-06-28 01:43:32 INFO  AddMultipleProductsToCartStepDef:46 - Navigated to cart page successfully
+2026-06-28 01:43:32 INFO  AddMultipleProductsToCartStepDef:50 - Verifying added products invoice
+2026-06-28 01:43:33 INFO  AddMultipleProductsToCartStepDef:53 - Verifying Order details
+2026-06-28 01:43:33 INFO  AddMultipleProductsToCartStepDef:56 - Order Summary is successfully verified
+2026-06-29 02:19:08 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:19:08 INFO  AddMultipleProductsToCartStepDef:16 - Opening Noon website
+2026-06-29 02:19:15 INFO  AddMultipleProductsToCartStepDef:19 - Noon website opened successfully
+2026-06-29 02:19:15 INFO  AddMultipleProductsToCartStepDef:23 - Searching for headphones in search field
+2026-06-29 02:19:25 INFO  AddMultipleProductsToCartStepDef:28 - headphones result is true
+2026-06-29 02:19:25 INFO  AddMultipleProductsToCartStepDef:32 - Adding items to cart
+2026-06-29 02:19:32 INFO  AddMultipleProductsToCartStepDef:36 - Items added successfully
+2026-06-29 02:19:32 INFO  AddMultipleProductsToCartStepDef:41 - Going to cart page
+2026-06-29 02:19:39 INFO  AddMultipleProductsToCartStepDef:46 - Navigated to cart page successfully
+2026-06-29 02:19:39 INFO  AddMultipleProductsToCartStepDef:50 - Verifying added products invoice
+2026-06-29 02:19:40 INFO  AddMultipleProductsToCartStepDef:53 - Verifying Order details
+2026-06-29 02:19:40 INFO  AddMultipleProductsToCartStepDef:56 - Order Summary is successfully verified
+2026-06-29 02:27:24 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:27:24 INFO  VerificationOfUpdatingInvoiceStepDef:16 - Opening website
+2026-06-29 02:29:20 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:29:20 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 02:29:35 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 02:29:35 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 02:29:41 INFO  VerificationOfUpdatingInvoiceStepDef:31 - User is adding items to cart
+2026-06-29 02:31:09 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:31:09 INFO  AddMultipleProductsToCartStepDef:16 - Opening Noon website
+2026-06-29 02:31:18 INFO  AddMultipleProductsToCartStepDef:19 - Noon website opened successfully
+2026-06-29 02:31:18 INFO  AddMultipleProductsToCartStepDef:23 - Searching for headphones in search field
+2026-06-29 02:31:26 INFO  AddMultipleProductsToCartStepDef:28 - headphones result is true
+2026-06-29 02:31:26 INFO  AddMultipleProductsToCartStepDef:32 - Adding items to cart
+2026-06-29 02:32:18 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:32:18 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 02:32:28 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 02:32:28 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 02:32:33 INFO  VerificationOfUpdatingInvoiceStepDef:31 - User is adding items to cart
+2026-06-29 02:33:14 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:33:14 INFO  AddMultipleProductsToCartStepDef:16 - Opening Noon website
+2026-06-29 02:33:23 INFO  AddMultipleProductsToCartStepDef:19 - Noon website opened successfully
+2026-06-29 02:33:23 INFO  AddMultipleProductsToCartStepDef:23 - Searching for headphones in search field
+2026-06-29 02:33:32 INFO  AddMultipleProductsToCartStepDef:28 - headphones result is true
+2026-06-29 02:33:32 INFO  AddMultipleProductsToCartStepDef:32 - Adding items to cart
+2026-06-29 02:33:35 INFO  AddMultipleProductsToCartStepDef:36 - Items added successfully
+2026-06-29 02:33:35 INFO  AddMultipleProductsToCartStepDef:41 - Going to cart page
+2026-06-29 02:33:44 INFO  AddMultipleProductsToCartStepDef:46 - Navigated to cart page successfully
+2026-06-29 02:33:44 INFO  AddMultipleProductsToCartStepDef:50 - Verifying added products invoice
+2026-06-29 02:33:44 INFO  AddMultipleProductsToCartStepDef:53 - Verifying Order details
+2026-06-29 02:33:44 INFO  AddMultipleProductsToCartStepDef:56 - Order Summary is successfully verified
+2026-06-29 02:35:55 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:35:55 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 02:36:03 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 02:36:03 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 02:36:08 INFO  VerificationOfUpdatingInvoiceStepDef:31 - User is adding items to cart
+2026-06-29 02:37:12 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:37:12 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 02:37:24 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 02:37:24 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 02:37:29 INFO  VerificationOfUpdatingInvoiceStepDef:31 - User is adding items to cart
+2026-06-29 02:42:34 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:42:35 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 02:42:44 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 02:42:44 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 02:42:48 INFO  VerificationOfUpdatingInvoiceStepDef:31 - User is adding items to cart
+2026-06-29 02:42:51 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:42:51 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 02:42:57 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 02:42:57 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 02:43:02 INFO  VerificationOfUpdatingInvoiceStepDef:31 - User is adding items to cart
+2026-06-29 02:44:14 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:44:14 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 02:44:22 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 02:44:22 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 02:44:26 INFO  VerificationOfUpdatingInvoiceStepDef:31 - User is adding items to cart
+2026-06-29 02:44:54 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:44:54 INFO  AddMultipleProductsToCartStepDef:16 - Opening Noon website
+2026-06-29 02:45:02 INFO  AddMultipleProductsToCartStepDef:19 - Noon website opened successfully
+2026-06-29 02:45:02 INFO  AddMultipleProductsToCartStepDef:23 - Searching for headphones in search field
+2026-06-29 02:45:11 INFO  AddMultipleProductsToCartStepDef:28 - headphones result is true
+2026-06-29 02:45:11 INFO  AddMultipleProductsToCartStepDef:32 - Adding items to cart
+2026-06-29 02:45:16 INFO  AddMultipleProductsToCartStepDef:36 - Items added successfully
+2026-06-29 02:45:16 INFO  AddMultipleProductsToCartStepDef:41 - Going to cart page
+2026-06-29 02:45:24 INFO  AddMultipleProductsToCartStepDef:46 - Navigated to cart page successfully
+2026-06-29 02:45:24 INFO  AddMultipleProductsToCartStepDef:50 - Verifying added products invoice
+2026-06-29 02:45:24 INFO  AddMultipleProductsToCartStepDef:53 - Verifying Order details
+2026-06-29 02:45:24 INFO  AddMultipleProductsToCartStepDef:56 - Order Summary is successfully verified
+2026-06-29 02:47:05 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:47:05 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 02:47:12 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 02:47:12 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 02:47:21 INFO  VerificationOfUpdatingInvoiceStepDef:30 - headphones result is true
+2026-06-29 02:47:21 INFO  VerificationOfUpdatingInvoiceStepDef:35 - User is adding items to cart
+2026-06-29 02:47:23 INFO  VerificationOfUpdatingInvoiceStepDef:39 - Items added successfully
+2026-06-29 02:47:23 INFO  VerificationOfUpdatingInvoiceStepDef:44 - Navigating cart page
+2026-06-29 02:47:26 INFO  VerificationOfUpdatingInvoiceStepDef:46 - Navigated to Cart page
+2026-06-29 02:47:26 INFO  VerificationOfUpdatingInvoiceStepDef:51 - User is removed items from cart
+2026-06-29 02:50:18 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:50:18 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 02:50:31 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 02:50:31 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 02:50:39 INFO  VerificationOfUpdatingInvoiceStepDef:30 - headphones result is true
+2026-06-29 02:50:39 INFO  VerificationOfUpdatingInvoiceStepDef:35 - User is adding items to cart
+2026-06-29 02:51:00 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:51:00 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 02:51:07 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 02:51:07 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 02:51:17 INFO  VerificationOfUpdatingInvoiceStepDef:30 - headphones result is true
+2026-06-29 02:51:17 INFO  VerificationOfUpdatingInvoiceStepDef:35 - User is adding items to cart
+2026-06-29 02:51:52 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:51:52 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 02:52:00 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 02:52:00 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 02:52:09 INFO  VerificationOfUpdatingInvoiceStepDef:30 - headphones result is true
+2026-06-29 02:52:09 INFO  VerificationOfUpdatingInvoiceStepDef:35 - User is adding items to cart
+2026-06-29 02:52:42 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 02:52:42 INFO  AddMultipleProductsToCartStepDef:16 - Opening Noon website
+2026-06-29 02:52:49 INFO  AddMultipleProductsToCartStepDef:19 - Noon website opened successfully
+2026-06-29 02:52:49 INFO  AddMultipleProductsToCartStepDef:23 - Searching for headphones in search field
+2026-06-29 02:52:56 INFO  AddMultipleProductsToCartStepDef:28 - headphones result is true
+2026-06-29 02:52:56 INFO  AddMultipleProductsToCartStepDef:32 - Adding items to cart
+2026-06-29 03:00:37 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 03:00:37 INFO  AddMultipleProductsToCartStepDef:16 - Opening Noon website
+2026-06-29 03:00:44 INFO  AddMultipleProductsToCartStepDef:19 - Noon website opened successfully
+2026-06-29 03:00:44 INFO  AddMultipleProductsToCartStepDef:23 - Searching for headphones in search field
+2026-06-29 03:00:52 INFO  AddMultipleProductsToCartStepDef:28 - headphones result is true
+2026-06-29 03:00:52 INFO  AddMultipleProductsToCartStepDef:32 - Adding items to cart
+2026-06-29 03:09:34 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 03:09:34 INFO  AddMultipleProductsToCartStepDef:16 - Opening Noon website
+2026-06-29 03:09:41 INFO  AddMultipleProductsToCartStepDef:19 - Noon website opened successfully
+2026-06-29 03:09:41 INFO  AddMultipleProductsToCartStepDef:23 - Searching for headphones in search field
+2026-06-29 03:09:49 INFO  AddMultipleProductsToCartStepDef:28 - headphones result is true
+2026-06-29 03:09:49 INFO  AddMultipleProductsToCartStepDef:32 - Adding items to cart
+2026-06-29 03:12:27 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 03:12:27 INFO  AddMultipleProductsToCartStepDef:16 - Opening Noon website
+2026-06-29 03:12:34 INFO  AddMultipleProductsToCartStepDef:19 - Noon website opened successfully
+2026-06-29 03:12:34 INFO  AddMultipleProductsToCartStepDef:23 - Searching for headphones in search field
+2026-06-29 03:12:43 INFO  AddMultipleProductsToCartStepDef:28 - headphones result is true
+2026-06-29 03:12:43 INFO  AddMultipleProductsToCartStepDef:32 - Adding items to cart
+2026-06-29 03:18:56 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 03:18:56 INFO  AddMultipleProductsToCartStepDef:16 - Opening Noon website
+2026-06-29 03:19:03 INFO  AddMultipleProductsToCartStepDef:19 - Noon website opened successfully
+2026-06-29 03:19:03 INFO  AddMultipleProductsToCartStepDef:23 - Searching for headphones in search field
+2026-06-29 03:19:15 INFO  AddMultipleProductsToCartStepDef:28 - headphones result is true
+2026-06-29 03:19:15 INFO  AddMultipleProductsToCartStepDef:32 - Adding items to cart
+2026-06-29 03:33:37 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 03:33:37 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 03:33:45 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 03:33:45 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 03:33:52 INFO  VerificationOfUpdatingInvoiceStepDef:30 - headphones result is true
+2026-06-29 03:33:52 INFO  VerificationOfUpdatingInvoiceStepDef:35 - User is adding items to cart
+2026-06-29 03:41:10 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 03:41:11 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 03:41:19 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 03:41:19 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 03:41:27 INFO  VerificationOfUpdatingInvoiceStepDef:30 - headphones result is true
+2026-06-29 03:41:27 INFO  VerificationOfUpdatingInvoiceStepDef:35 - User is adding items to cart
+2026-06-29 03:42:56 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 03:42:56 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 03:43:09 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 03:43:09 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 03:43:19 INFO  VerificationOfUpdatingInvoiceStepDef:30 - headphones result is true
+2026-06-29 03:43:19 INFO  VerificationOfUpdatingInvoiceStepDef:35 - User is adding items to cart
+2026-06-29 03:51:31 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 03:51:32 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 03:51:40 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 03:51:40 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 03:51:49 INFO  VerificationOfUpdatingInvoiceStepDef:30 - headphones result is true
+2026-06-29 03:51:49 INFO  VerificationOfUpdatingInvoiceStepDef:35 - User is adding items to cart
+2026-06-29 03:54:12 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 03:54:13 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 03:54:22 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 03:54:22 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 03:54:31 INFO  VerificationOfUpdatingInvoiceStepDef:30 - headphones result is true
+2026-06-29 03:54:31 INFO  VerificationOfUpdatingInvoiceStepDef:35 - User is adding items to cart
+2026-06-29 03:55:45 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 03:55:45 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 03:55:55 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 03:55:55 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 03:56:05 INFO  VerificationOfUpdatingInvoiceStepDef:30 - headphones result is true
+2026-06-29 03:56:05 INFO  VerificationOfUpdatingInvoiceStepDef:35 - User is adding items to cart
+2026-06-29 04:00:09 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 04:00:09 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 04:00:18 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 04:00:18 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 04:00:30 INFO  VerificationOfUpdatingInvoiceStepDef:30 - headphones result is true
+2026-06-29 04:00:30 INFO  VerificationOfUpdatingInvoiceStepDef:35 - User is adding items to cart
+2026-06-29 04:00:36 INFO  VerificationOfUpdatingInvoiceStepDef:39 - Items added successfully
+2026-06-29 04:00:36 INFO  VerificationOfUpdatingInvoiceStepDef:44 - Navigating cart page
+2026-06-29 04:00:37 INFO  VerificationOfUpdatingInvoiceStepDef:46 - Navigated to Cart page
+2026-06-29 04:00:37 INFO  VerificationOfUpdatingInvoiceStepDef:51 - User is removed items from cart
+2026-06-29 04:05:54 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 04:05:54 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 04:06:03 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 04:06:03 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 04:06:11 INFO  VerificationOfUpdatingInvoiceStepDef:30 - headphones result is true
+2026-06-29 04:06:11 INFO  VerificationOfUpdatingInvoiceStepDef:35 - User is adding items to cart
+2026-06-29 04:07:07 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 04:07:07 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 04:07:15 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 04:07:15 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 04:07:23 INFO  VerificationOfUpdatingInvoiceStepDef:30 - headphones result is true
+2026-06-29 04:07:23 INFO  VerificationOfUpdatingInvoiceStepDef:35 - User is adding items to cart
+2026-06-29 04:07:26 INFO  VerificationOfUpdatingInvoiceStepDef:39 - Items added successfully
+2026-06-29 04:07:26 INFO  VerificationOfUpdatingInvoiceStepDef:44 - Navigating cart page
+2026-06-29 04:07:27 INFO  VerificationOfUpdatingInvoiceStepDef:46 - Navigated to Cart page
+2026-06-29 04:07:27 INFO  VerificationOfUpdatingInvoiceStepDef:51 - User is removed items from cart
+2026-06-29 04:17:53 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 04:17:53 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 04:18:02 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 04:18:02 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 04:18:12 INFO  VerificationOfUpdatingInvoiceStepDef:30 - headphones result is true
+2026-06-29 04:18:12 INFO  VerificationOfUpdatingInvoiceStepDef:35 - User is adding items to cart
+2026-06-29 04:18:39 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 04:18:39 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 04:18:48 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 04:18:48 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 04:18:57 INFO  VerificationOfUpdatingInvoiceStepDef:30 - headphones result is true
+2026-06-29 04:18:57 INFO  VerificationOfUpdatingInvoiceStepDef:35 - User is adding items to cart
+2026-06-29 04:19:51 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 04:19:51 INFO  VerificationOfUpdatingInvoiceStepDef:17 - Opening website
+2026-06-29 04:20:01 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Noon website opened
+2026-06-29 04:20:01 INFO  VerificationOfUpdatingInvoiceStepDef:25 - Checking for product
+2026-06-29 04:20:09 INFO  VerificationOfUpdatingInvoiceStepDef:30 - headphones result is true
+2026-06-29 04:20:09 INFO  VerificationOfUpdatingInvoiceStepDef:35 - User is adding items to cart
+2026-06-29 04:20:12 INFO  VerificationOfUpdatingInvoiceStepDef:39 - Items added successfully
+2026-06-29 04:20:12 INFO  VerificationOfUpdatingInvoiceStepDef:44 - Navigating cart page
+2026-06-29 04:20:13 INFO  VerificationOfUpdatingInvoiceStepDef:46 - Navigated to Cart page
+2026-06-29 04:20:13 INFO  VerificationOfUpdatingInvoiceStepDef:51 - User is removed items from cart
+2026-06-29 04:20:18 INFO  VerificationOfUpdatingInvoiceStepDef:53 - Items removed successfully
+2026-06-29 04:20:18 INFO  VerificationOfUpdatingInvoiceStepDef:58 - Verifying that the invoice updated
+2026-06-29 04:34:39 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 04:34:39 INFO  VerificationOfUpdatingInvoiceStepDef:18 - Opening website
+2026-06-29 04:34:49 INFO  VerificationOfUpdatingInvoiceStepDef:21 - Noon website opened
+2026-06-29 04:34:49 INFO  VerificationOfUpdatingInvoiceStepDef:26 - Checking for product
+2026-06-29 04:34:59 INFO  VerificationOfUpdatingInvoiceStepDef:31 - headphones result is true
+2026-06-29 04:34:59 INFO  VerificationOfUpdatingInvoiceStepDef:36 - User is adding items to cart
+2026-06-29 04:35:03 INFO  VerificationOfUpdatingInvoiceStepDef:40 - Items added successfully
+2026-06-29 04:35:03 INFO  VerificationOfUpdatingInvoiceStepDef:45 - Navigating cart page
+2026-06-29 04:35:05 INFO  VerificationOfUpdatingInvoiceStepDef:47 - Navigated to Cart page
+2026-06-29 04:35:05 INFO  VerificationOfUpdatingInvoiceStepDef:52 - User is removed items from cart
+2026-06-29 04:35:11 INFO  VerificationOfUpdatingInvoiceStepDef:55 - Items removed successfully
+2026-06-29 04:35:11 INFO  VerificationOfUpdatingInvoiceStepDef:60 - Verifying that the invoice updated
+2026-06-29 04:35:11 INFO  VerificationOfUpdatingInvoiceStepDef:65 - Invoice updated successfully
+2026-06-29 04:38:53 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 04:38:53 INFO  VerificationOfUpdatingInvoiceStepDef:18 - Opening website
+2026-06-29 04:39:02 INFO  VerificationOfUpdatingInvoiceStepDef:21 - Noon website opened
+2026-06-29 04:39:02 INFO  VerificationOfUpdatingInvoiceStepDef:26 - Checking for product
+2026-06-29 04:39:08 INFO  VerificationOfUpdatingInvoiceStepDef:31 - headphones result is true
+2026-06-29 04:39:08 INFO  VerificationOfUpdatingInvoiceStepDef:36 - User is adding items to cart
+2026-06-29 04:39:12 INFO  VerificationOfUpdatingInvoiceStepDef:40 - Items added successfully
+2026-06-29 04:39:12 INFO  VerificationOfUpdatingInvoiceStepDef:45 - Navigating cart page
+2026-06-29 04:39:13 INFO  VerificationOfUpdatingInvoiceStepDef:47 - Navigated to Cart page
+2026-06-29 04:39:13 INFO  VerificationOfUpdatingInvoiceStepDef:52 - User is removed items from cart
+2026-06-29 04:39:20 INFO  VerificationOfUpdatingInvoiceStepDef:56 - Items removed successfully
+2026-06-29 04:39:20 INFO  VerificationOfUpdatingInvoiceStepDef:61 - Verifying that the invoice updated
+2026-06-29 04:43:37 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 04:43:37 INFO  VerificationOfUpdatingInvoiceStepDef:18 - Opening website
+2026-06-29 04:43:45 INFO  VerificationOfUpdatingInvoiceStepDef:21 - Noon website opened
+2026-06-29 04:43:45 INFO  VerificationOfUpdatingInvoiceStepDef:26 - Checking for product
+2026-06-29 04:43:52 INFO  VerificationOfUpdatingInvoiceStepDef:31 - headphones result is true
+2026-06-29 04:43:52 INFO  VerificationOfUpdatingInvoiceStepDef:36 - User is adding items to cart
+2026-06-29 04:43:54 INFO  VerificationOfUpdatingInvoiceStepDef:40 - Items added successfully
+2026-06-29 04:43:54 INFO  VerificationOfUpdatingInvoiceStepDef:45 - Navigating cart page
+2026-06-29 04:43:55 INFO  VerificationOfUpdatingInvoiceStepDef:47 - Navigated to Cart page
+2026-06-29 04:43:55 INFO  VerificationOfUpdatingInvoiceStepDef:52 - User is removed items from cart
+2026-06-29 04:44:27 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 04:44:27 INFO  VerificationOfUpdatingInvoiceStepDef:18 - Opening website
+2026-06-29 04:44:36 INFO  VerificationOfUpdatingInvoiceStepDef:21 - Noon website opened
+2026-06-29 04:44:36 INFO  VerificationOfUpdatingInvoiceStepDef:26 - Checking for product
+2026-06-29 04:44:43 INFO  VerificationOfUpdatingInvoiceStepDef:31 - headphones result is true
+2026-06-29 04:44:43 INFO  VerificationOfUpdatingInvoiceStepDef:36 - User is adding items to cart
+2026-06-29 04:44:46 INFO  VerificationOfUpdatingInvoiceStepDef:40 - Items added successfully
+2026-06-29 04:44:46 INFO  VerificationOfUpdatingInvoiceStepDef:45 - Navigating cart page
+2026-06-29 04:44:47 INFO  VerificationOfUpdatingInvoiceStepDef:47 - Navigated to Cart page
+2026-06-29 04:44:47 INFO  VerificationOfUpdatingInvoiceStepDef:52 - User is removed items from cart
+2026-06-29 04:44:55 INFO  VerificationOfUpdatingInvoiceStepDef:56 - Items removed successfully
+2026-06-29 04:44:55 INFO  VerificationOfUpdatingInvoiceStepDef:61 - Verifying that the invoice updated
+2026-06-29 04:44:55 INFO  VerificationOfUpdatingInvoiceStepDef:67 - Invoice updated successfully
+2026-06-29 04:54:10 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 04:54:10 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Opening website
+2026-06-29 04:54:18 INFO  VerificationOfUpdatingInvoiceStepDef:23 - Noon website opened
+2026-06-29 04:54:18 INFO  VerificationOfUpdatingInvoiceStepDef:28 - Checking for product
+2026-06-29 04:54:23 INFO  VerificationOfUpdatingInvoiceStepDef:33 - headphones result is true
+2026-06-29 04:54:23 INFO  VerificationOfUpdatingInvoiceStepDef:38 - User is adding items to cart
+2026-06-29 04:54:27 INFO  VerificationOfUpdatingInvoiceStepDef:42 - Items added successfully
+2026-06-29 04:54:27 INFO  VerificationOfUpdatingInvoiceStepDef:47 - Navigating cart page
+2026-06-29 04:54:28 INFO  VerificationOfUpdatingInvoiceStepDef:49 - Navigated to Cart page
+2026-06-29 04:54:28 INFO  VerificationOfUpdatingInvoiceStepDef:54 - User is removed items from cart
+2026-06-29 04:55:00 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 04:55:00 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Opening website
+2026-06-29 04:55:09 INFO  VerificationOfUpdatingInvoiceStepDef:23 - Noon website opened
+2026-06-29 04:55:09 INFO  VerificationOfUpdatingInvoiceStepDef:28 - Checking for product
+2026-06-29 04:55:17 INFO  VerificationOfUpdatingInvoiceStepDef:33 - headphones result is true
+2026-06-29 04:55:17 INFO  VerificationOfUpdatingInvoiceStepDef:38 - User is adding items to cart
+2026-06-29 04:55:19 INFO  VerificationOfUpdatingInvoiceStepDef:42 - Items added successfully
+2026-06-29 04:55:19 INFO  VerificationOfUpdatingInvoiceStepDef:47 - Navigating cart page
+2026-06-29 04:55:20 INFO  VerificationOfUpdatingInvoiceStepDef:49 - Navigated to Cart page
+2026-06-29 04:55:20 INFO  VerificationOfUpdatingInvoiceStepDef:54 - User is removed items from cart
+2026-06-29 04:58:47 DEBUG HooksHandler:32 - Assertion Manager Initialized
+2026-06-29 04:58:47 INFO  VerificationOfUpdatingInvoiceStepDef:20 - Opening website
+2026-06-29 04:58:56 INFO  VerificationOfUpdatingInvoiceStepDef:23 - Noon website opened
+2026-06-29 04:58:56 INFO  VerificationOfUpdatingInvoiceStepDef:28 - Checking for product
+2026-06-29 04:59:01 INFO  VerificationOfUpdatingInvoiceStepDef:33 - headphones result is true
+2026-06-29 04:59:01 INFO  VerificationOfUpdatingInvoiceStepDef:38 - User is adding items to cart
+2026-06-29 04:59:03 INFO  VerificationOfUpdatingInvoiceStepDef:42 - Items added successfully
+2026-06-29 04:59:03 INFO  VerificationOfUpdatingInvoiceStepDef:47 - Navigating cart page
+2026-06-29 04:59:04 INFO  VerificationOfUpdatingInvoiceStepDef:49 - Navigated to Cart page
+2026-06-29 04:59:04 INFO  VerificationOfUpdatingInvoiceStepDef:54 - User is removed items from cart

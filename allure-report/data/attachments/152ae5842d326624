@@ -1,0 +1,173 @@
+2026-06-26 17:41:08 DEBUG GetSamsungCategoryStepDef:33 - Open noon website
+2026-06-26 17:41:28 DEBUG GetSamsungCategoryStepDef:33 - Open noon website
+2026-06-26 17:43:13 DEBUG GetSamsungCategoryStepDef:33 - Open noon website
+2026-06-26 18:40:02 DEBUG HooksHandler:30 - Assertion Manager Initialized
+2026-06-26 18:40:02 DEBUG HooksHandler:31 - config Manager Initialized
+2026-06-26 18:40:04 DEBUG GetSamsungCategoryStepDef:32 - Open noon website
+2026-06-26 18:40:43 DEBUG HooksHandler:30 - Assertion Manager Initialized
+2026-06-26 18:40:43 DEBUG HooksHandler:31 - config Manager Initialized
+2026-06-26 18:41:08 DEBUG GetSamsungCategoryStepDef:32 - Open noon website
+2026-06-26 18:44:15 DEBUG HooksHandler:30 - Assertion Manager Initialized
+2026-06-26 18:44:15 DEBUG HooksHandler:31 - config Manager Initialized
+2026-06-26 18:44:49 DEBUG GetSamsungCategoryStepDef:32 - Open noon website
+2026-06-26 18:45:42 DEBUG HooksHandler:30 - Assertion Manager Initialized
+2026-06-26 18:45:42 DEBUG HooksHandler:31 - config Manager Initialized
+2026-06-26 18:46:08 DEBUG GetSamsungCategoryStepDef:32 - Open noon website
+2026-06-26 18:47:48 DEBUG HooksHandler:30 - Assertion Manager Initialized
+2026-06-26 18:47:48 DEBUG HooksHandler:31 - config Manager Initialized
+2026-06-26 18:48:02 DEBUG GetSamsungCategoryStepDef:30 - Open noon website
+2026-06-26 18:53:48 DEBUG HooksHandler:30 - Assertion Manager Initialized
+2026-06-26 18:53:48 DEBUG HooksHandler:31 - config Manager Initialized
+2026-06-26 18:54:06 DEBUG GetSamsungCategoryStepDef:24 - Open noon website
+2026-06-26 19:03:56 DEBUG HooksHandler:30 - Assertion Manager Initialized
+2026-06-26 19:03:56 DEBUG HooksHandler:31 - config Manager Initialized
+2026-06-26 19:04:49 DEBUG GetSamsungCategoryStepDef:24 - Open noon website
+2026-06-26 19:06:53 DEBUG HooksHandler:34 - Assertion Manager Initialized
+2026-06-26 19:06:53 DEBUG HooksHandler:35 - config Manager Initialized
+2026-06-26 19:07:12 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-26 20:25:59 DEBUG HooksHandler:35 - Assertion Manager Initialized
+2026-06-26 20:25:59 DEBUG HooksHandler:36 - config Manager Initialized
+2026-06-26 20:26:30 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-26 20:26:30 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-26 20:26:30 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-26 20:26:30 DEBUG GetSamsungCategoryStepDef:31 - Click Samsung in brand
+2026-06-26 20:28:27 DEBUG HooksHandler:35 - Assertion Manager Initialized
+2026-06-26 20:28:27 DEBUG HooksHandler:36 - config Manager Initialized
+2026-06-26 20:28:37 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-26 20:28:37 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-26 20:28:37 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-26 20:28:43 DEBUG GetSamsungCategoryStepDef:31 - Click Samsung in brand
+2026-06-26 20:31:15 DEBUG HooksHandler:35 - Assertion Manager Initialized
+2026-06-26 20:31:15 DEBUG HooksHandler:36 - config Manager Initialized
+2026-06-26 20:31:27 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-26 20:31:27 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-26 20:31:27 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-26 20:31:32 DEBUG GetSamsungCategoryStepDef:31 - Click Samsung in brand
+2026-06-26 20:33:55 DEBUG HooksHandler:35 - Assertion Manager Initialized
+2026-06-26 20:33:55 DEBUG HooksHandler:36 - config Manager Initialized
+2026-06-26 20:34:14 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-26 20:34:14 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-26 20:34:14 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-26 20:35:04 DEBUG HooksHandler:35 - Assertion Manager Initialized
+2026-06-26 20:35:04 DEBUG HooksHandler:36 - config Manager Initialized
+2026-06-26 20:35:26 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-26 20:35:26 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-26 20:35:27 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-26 20:35:30 DEBUG GetSamsungCategoryStepDef:31 - Click Samsung in brand
+2026-06-26 20:37:54 DEBUG HooksHandler:35 - Assertion Manager Initialized
+2026-06-26 20:37:54 DEBUG HooksHandler:36 - config Manager Initialized
+2026-06-26 20:38:19 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-26 20:38:19 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-26 20:38:19 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-26 20:38:22 DEBUG GetSamsungCategoryStepDef:31 - Click Samsung in brand
+2026-06-26 20:42:11 DEBUG HooksHandler:36 - Assertion Manager Initialized
+2026-06-26 20:42:11 DEBUG HooksHandler:37 - config Manager Initialized
+2026-06-26 20:42:39 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-26 20:42:39 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-26 20:42:39 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-26 20:42:41 DEBUG GetSamsungCategoryStepDef:31 - Click Samsung in brand
+2026-06-26 20:43:52 DEBUG HooksHandler:36 - Assertion Manager Initialized
+2026-06-26 20:43:52 DEBUG HooksHandler:37 - config Manager Initialized
+2026-06-26 20:44:14 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-26 20:44:14 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-26 20:44:14 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-26 20:44:18 DEBUG GetSamsungCategoryStepDef:35 - Click Samsung in brand
+2026-06-26 20:44:23 DEBUG HooksHandler:36 - Assertion Manager Initialized
+2026-06-26 20:44:23 DEBUG HooksHandler:37 - config Manager Initialized
+2026-06-26 20:44:28 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-26 20:44:28 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-26 20:44:28 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-26 20:44:32 DEBUG GetSamsungCategoryStepDef:31 - Click Samsung in brand
+2026-06-26 20:52:06 DEBUG HooksHandler:36 - Assertion Manager Initialized
+2026-06-26 20:52:06 DEBUG HooksHandler:37 - config Manager Initialized
+2026-06-26 20:52:23 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-26 20:52:23 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-26 20:52:23 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-26 20:52:28 DEBUG GetSamsungCategoryStepDef:35 - Click Samsung in brand
+2026-06-26 20:52:32 DEBUG HooksHandler:36 - Assertion Manager Initialized
+2026-06-26 20:52:32 DEBUG HooksHandler:37 - config Manager Initialized
+2026-06-26 20:52:37 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-26 20:52:37 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-26 20:52:37 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-26 20:52:42 DEBUG GetSamsungCategoryStepDef:31 - Click Samsung in brand
+2026-06-26 21:00:44 DEBUG HooksHandler:36 - Assertion Manager Initialized
+2026-06-26 21:00:44 DEBUG HooksHandler:37 - config Manager Initialized
+2026-06-26 21:00:58 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-26 21:00:58 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-26 21:00:58 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-26 21:01:03 DEBUG GetSamsungCategoryStepDef:35 - Click Samsung in brand
+2026-06-26 21:01:06 DEBUG HooksHandler:36 - Assertion Manager Initialized
+2026-06-26 21:01:06 DEBUG HooksHandler:37 - config Manager Initialized
+2026-06-26 21:01:16 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-26 21:01:16 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-26 21:01:16 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-26 21:01:17 DEBUG GetSamsungCategoryStepDef:31 - Click Samsung in brand
+2026-06-26 22:57:40 DEBUG HooksHandler:36 - Assertion Manager Initialized
+2026-06-26 22:57:40 DEBUG HooksHandler:37 - config Manager Initialized
+2026-06-26 22:57:49 DEBUG FilterByPriceAndRecommendationsStepDef:20 - Open noon website
+2026-06-26 22:57:49 DEBUG FilterByPriceAndRecommendationsStepDef:25 - Move to category option
+2026-06-26 22:57:49 INFO  FilterByPriceAndRecommendationsStepDef:26 - Wait until category menu is open
+2026-06-26 22:57:55 DEBUG FilterByPriceAndRecommendationsStepDef:28 - Click Samsung in brand
+2026-06-26 22:58:08 DEBUG FilterByPriceAndRecommendationsStepDef:41 - Verifying filter by price matches the result
+2026-06-26 22:59:42 DEBUG HooksHandler:36 - Assertion Manager Initialized
+2026-06-26 22:59:42 DEBUG HooksHandler:37 - config Manager Initialized
+2026-06-26 22:59:53 DEBUG FilterByPriceAndRecommendationsStepDef:20 - Open noon website
+2026-06-26 22:59:53 DEBUG FilterByPriceAndRecommendationsStepDef:25 - Move to category option
+2026-06-26 22:59:53 INFO  FilterByPriceAndRecommendationsStepDef:26 - Wait until category menu is open
+2026-06-26 23:00:06 DEBUG FilterByPriceAndRecommendationsStepDef:28 - Click Samsung in brand
+2026-06-26 23:00:17 DEBUG FilterByPriceAndRecommendationsStepDef:42 - Verifying filter by price matches the result
+2026-06-26 23:05:41 DEBUG HooksHandler:36 - Assertion Manager Initialized
+2026-06-26 23:05:41 DEBUG HooksHandler:37 - config Manager Initialized
+2026-06-26 23:05:53 DEBUG FilterByPriceAndRecommendationsStepDef:21 - Open noon website
+2026-06-26 23:05:53 DEBUG FilterByPriceAndRecommendationsStepDef:26 - Move to category option
+2026-06-26 23:05:53 INFO  FilterByPriceAndRecommendationsStepDef:27 - Wait until category menu is open
+2026-06-26 23:05:59 DEBUG FilterByPriceAndRecommendationsStepDef:29 - Click Samsung in brand
+2026-06-26 23:06:09 DEBUG FilterByPriceAndRecommendationsStepDef:43 - Verifying filter by price matches the result
+2026-06-26 23:14:40 DEBUG HooksHandler:36 - Assertion Manager Initialized
+2026-06-26 23:14:40 DEBUG HooksHandler:37 - config Manager Initialized
+2026-06-26 23:14:50 DEBUG FilterByPriceAndRecommendationsStepDef:21 - Open noon website
+2026-06-26 23:14:50 DEBUG FilterByPriceAndRecommendationsStepDef:26 - Move to category option
+2026-06-26 23:14:50 INFO  FilterByPriceAndRecommendationsStepDef:27 - Wait until category menu is open
+2026-06-26 23:14:53 DEBUG FilterByPriceAndRecommendationsStepDef:29 - Click Samsung in brand
+2026-06-26 23:15:05 DEBUG FilterByPriceAndRecommendationsStepDef:43 - Verifying filter by price matches the result
+2026-06-26 23:32:06 DEBUG HooksHandler:36 - Assertion Manager Initialized
+2026-06-26 23:32:06 DEBUG HooksHandler:37 - config Manager Initialized
+2026-06-26 23:32:31 DEBUG HooksHandler:36 - Assertion Manager Initialized
+2026-06-26 23:32:31 DEBUG HooksHandler:37 - config Manager Initialized
+2026-06-26 23:33:07 DEBUG HooksHandler:36 - Assertion Manager Initialized
+2026-06-26 23:33:07 DEBUG HooksHandler:37 - config Manager Initialized
+2026-06-26 23:33:20 DEBUG FilterByPriceAndRecommendationsStepDef:22 - Open noon website
+2026-06-26 23:33:20 DEBUG FilterByPriceAndRecommendationsStepDef:27 - Move to category option
+2026-06-26 23:33:20 INFO  FilterByPriceAndRecommendationsStepDef:28 - Wait until category menu is open
+2026-06-26 23:33:23 DEBUG FilterByPriceAndRecommendationsStepDef:30 - Click Samsung in brand
+2026-06-26 23:33:39 DEBUG FilterByPriceAndRecommendationsStepDef:46 - Verifying filter by price matches the result
+2026-06-27 19:20:38 DEBUG HooksHandler:36 - Assertion Manager Initialized
+2026-06-27 19:20:38 DEBUG HooksHandler:37 - config Manager Initialized
+2026-06-27 19:20:38 INFO  FilterByPriceAndRecommendationsStepDef:20 - Open noon website
+2026-06-27 19:20:47 INFO  FilterByPriceAndRecommendationsStepDef:23 - Open noon page successful
+2026-06-27 19:20:47 DEBUG FilterByPriceAndRecommendationsStepDef:28 - Move to category option
+2026-06-27 19:20:47 INFO  FilterByPriceAndRecommendationsStepDef:29 - Wait until category menu is open
+2026-06-27 19:20:50 DEBUG FilterByPriceAndRecommendationsStepDef:31 - Click Samsung in brand
+2026-06-27 19:20:56 INFO  FilterByPriceAndRecommendationsStepDef:37 - Move to category option successful
+2026-06-27 19:20:56 INFO  FilterByPriceAndRecommendationsStepDef:44 - Opening the Price filter.
+2026-06-27 19:20:56 INFO  FilterByPriceAndRecommendationsStepDef:47 - Applying price filter: Min & Max
+2026-06-27 19:21:02 INFO  FilterByPriceAndRecommendationsStepDef:49 - Waiting for the product list to refresh after applying the price filter.
+2026-06-27 19:21:04 INFO  FilterByPriceAndRecommendationsStepDef:51 - Waiting for the filtered products to become visible.
+2026-06-27 19:21:04 INFO  FilterByPriceAndRecommendationsStepDef:53 - Verifying that all displayed products are within the selected price range.
+2026-06-27 19:21:06 INFO  FilterByPriceAndRecommendationsStepDef:57 - Price range verification completed successfully.
+2026-06-27 19:21:06 INFO  FilterByPriceAndRecommendationsStepDef:63 - Opening the sorting filter.
+2026-06-27 19:21:08 INFO  FilterByPriceAndRecommendationsStepDef:66 - Result sorted by best rated successfully.
+2026-06-27 19:21:08 DEBUG HooksHandler:36 - Assertion Manager Initialized
+2026-06-27 19:21:08 DEBUG HooksHandler:37 - config Manager Initialized
+2026-06-27 19:21:12 DEBUG GetSamsungCategoryStepDef:23 - Open noon website
+2026-06-27 19:21:12 DEBUG GetSamsungCategoryStepDef:28 - Move to category option
+2026-06-27 19:21:12 INFO  GetSamsungCategoryStepDef:29 - Wait until category menu is open
+2026-06-27 19:21:18 DEBUG GetSamsungCategoryStepDef:35 - Click Samsung in brand
+2026-06-27 22:28:15 DEBUG HooksHandler:34 - Assertion Manager Initialized
+2026-06-27 22:28:15 DEBUG HooksHandler:35 - config Manager Initialized
+2026-06-27 22:28:21 INFO  GetSamsungCategoryStepDef:20 - open noon website
+2026-06-27 22:28:29 INFO  GetSamsungCategoryStepDef:27 - headphones result is true
+2026-06-27 22:33:30 DEBUG HooksHandler:34 - Assertion Manager Initialized
+2026-06-27 22:33:30 DEBUG HooksHandler:35 - config Manager Initialized
+2026-06-27 22:33:38 INFO  GetSamsungCategoryStepDef:20 - open noon website
+2026-06-27 22:33:46 INFO  GetSamsungCategoryStepDef:27 - headphones result is true
