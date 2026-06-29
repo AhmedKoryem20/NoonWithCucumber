@@ -47,6 +47,9 @@ public class HooksHandler extends BaseTest {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        finally {
+            WebDriverFactory.quitDriver();
+        }
     }
 
     @AfterStep
