@@ -1,13 +1,15 @@
 package Tests.AddMultipleProductsToCart;
 import Tests.BaseTest.BaseTest;
 import Tests.Drivers.WebDriverFactory;
-import Tests.GetSamsungCategory.GetSamsungCategoryStepDef;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class AddMultipleProductsToCartStepDef extends BaseTest {
     private static final Logger log = LogManager.getLogger(AddMultipleProductsToCartStepDef.class);
@@ -43,8 +45,8 @@ public class AddMultipleProductsToCartStepDef extends BaseTest {
         softAssert.assertAll();
         log.info("Navigated to cart page successfully");
     }
-    @Then("verify added items in cart with details")
-    public void verifyAddedItemsInCartWithDetails() {
+    @And("verify added items in cart with cost details")
+    public void verifyAddedItemsInCartWithCostDetails() {
         log.info("Verifying added products invoice");
         double sumOfProductsPrice = verifyOrderDetailsPage.getTheSumOfProducts();
         double invoiceTotalPrice = verifyOrderDetailsPage.getTotalPrice();
@@ -52,6 +54,16 @@ public class AddMultipleProductsToCartStepDef extends BaseTest {
         softAssert.assertEquals(sumOfProductsPrice,invoiceTotalPrice,0.01,"Total price is incorrect");
         softAssert.assertAll();
         log.info("Order Summary is successfully verified");
+    }
+    @Then("verify products selected are shown in cart")
+    public void verifyProductsSelectedAreShownInCart() {
+        log.info("Verifying selected items are shown in cart page");
+        List<String> itemsAdded = new ArrayList<>(selectItemsPage.getSelectedTitles());
+        List<String> itemsInCart = new ArrayList<>(goToCartPage.getSelectedTitlesInCart());
+        softAssert.assertTrue(verifyOrderDetailsPage.areAllProductsInCart(itemsAdded,itemsInCart),
+                "Selected titles are incorrect");
+        softAssert.assertAll();
+        log.info("Products verified successfully");
     }
 
 }
