@@ -32,6 +32,25 @@ public class VerifyOrderDetailsPage extends BasePage {
         return priceSum;
     }
 
+    public boolean areAllProductsInCart(List<String> itemsAdded , List<String> itemsInCart){
+
+        if (itemsAdded.size() != itemsInCart.size()) {
+            return false;
+        }
+
+        int counter = 0;
+        for (String item : itemsAdded){
+            for (String itemInCart : itemsInCart){
+                if (item.equals(itemInCart)){
+                    counter++;
+                    break;
+
+                }
+            }
+        }
+        return  counter == itemsAdded.size();
+    }
+
 
 
 
