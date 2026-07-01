@@ -11,7 +11,7 @@ import java.util.List;
 public class SelectItemsPage extends BasePage{
 
 
-    public List<String> selectedTitles = new ArrayList<>();
+    private final List<String> selectedTitles = new ArrayList<>();
     public SelectItemsPage(WebDriver driver) {
         super(driver);
     }
@@ -20,9 +20,15 @@ public class SelectItemsPage extends BasePage{
 
     public void clickAddToCart(int noOfProducts) {
         WebDriverWait wait = new WebDriverWait(driver , Duration.ofSeconds(20));
+        List<WebElement> resultTitles = wait.until(ExpectedConditions.
+                visibilityOfAllElementsLocatedBy(By.xpath(
+                        "//h2[@data-qa='plp-product-box-name']")));
         List<WebElement> addToCartButtons = driver.findElements(By.xpath("//button[.//img[@alt='add-to-cart']]"));
+        selectedTitles.clear();
         for (int i = 0; i < noOfProducts ; i++) {
             WebElement button = addToCartButtons.get(i);
+            selectedTitles.add(normalizeText(resultTitles.get(i).getAttribute("title")));
+            System.out.printf("Selected title: %s\n", resultTitles.get(i).getAttribute("title"));
             wait.until(ExpectedConditions.elementToBeClickable(button)).click();
         }
 
@@ -50,5 +56,8 @@ public class SelectItemsPage extends BasePage{
                 "//div[normalize-space()='Order Summary']")));
         clickRemoveItem(locationInCart);
 
+    }
+    public List<String>  getSelectedTitles() {
+        return selectedTitles;
     }
 }
