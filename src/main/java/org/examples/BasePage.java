@@ -29,4 +29,10 @@ public class BasePage {
         Actions action = new Actions(driver);
         action.sendKeys(Keys.ENTER).perform();
     }
+
+    public String normalizeText(String text){
+        return text.replaceAll("\\s+-\\s+", "")
+                .replaceAll("\\s+", "")
+                .trim();
+    }
 }
