@@ -30,7 +30,6 @@ public class GoToCartPage extends BasePage{
         List<String> productTitlesInCart = new ArrayList<>();
         for (WebElement title : titleElement) {
             productTitlesInCart.add(normalizeText(title.getText()));
-            System.out.printf("Title: %s\n", title.getText().trim());
         }
         return productTitlesInCart;
     }
