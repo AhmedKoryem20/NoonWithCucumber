@@ -41,14 +41,9 @@ public class FilterByPriceAndRecommendationsStepDef extends BaseTest {
     @And("get filter by price and provide {string} and {string}")
     public void getFilterByPriceAndProvideAndProvide(String max, String min) {
         log.info("Opening the Price filter.");
-        WebElement oldFirstPrice = driver.findElement(productPrice);
         filterByRangeAndRatingsPage.clickOnFilterByPrice();
         log.info("Applying price filter: Min & Max");
         filterByRangeAndRatingsPage.provideAmountOfMoney(jsonFileManager.getValue(min) , jsonFileManager.getValue(max));
-        log.info("Waiting for the product list to refresh after applying the price filter.");
-        wait.until(ExpectedConditions.stalenessOf(oldFirstPrice));
-        log.info("Waiting for the filtered products to become visible.");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(productPrice));
         log.info("Verifying that all displayed products are within the selected price range.");
         softAssert.assertTrue(filterByRangeAndRatingsPage.verifyProductsPricesAreInRange(jsonFileManager.getValue(min), jsonFileManager.getValue(max)),
                 "Some displayed products are outside the selected price range.");
