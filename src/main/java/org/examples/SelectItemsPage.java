@@ -28,7 +28,6 @@ public class SelectItemsPage extends BasePage{
         for (int i = 0; i < noOfProducts ; i++) {
             WebElement button = addToCartButtons.get(i);
             selectedTitles.add(normalizeText(resultTitles.get(i).getAttribute("title")));
-            System.out.printf("Selected title: %s\n", resultTitles.get(i).getAttribute("title"));
             wait.until(ExpectedConditions.elementToBeClickable(button)).click();
         }
 
