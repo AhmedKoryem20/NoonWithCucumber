@@ -20,7 +20,6 @@ public class BaseTest{
     protected static SelectItemsPage selectItemsPage;
     protected static GoToCartPage goToCartPage;
     protected static VerifyOrderDetailsPage verifyOrderDetailsPage;
-    public By productPrice = By.xpath("//strong[contains(@class,'Price-module')]");
 
     }
 
