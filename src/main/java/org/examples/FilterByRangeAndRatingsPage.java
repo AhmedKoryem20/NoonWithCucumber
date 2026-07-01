@@ -66,7 +66,7 @@ public class FilterByRangeAndRatingsPage extends  BasePage {
     }
 
     public String getValidationError(String expectedError) {
-        By errorMessage = By.xpath("//p[contains(@class,'__error') and normalize-space()='" + expectedError + "']");
+        By errorMessage = By.xpath("//p[contains(@class,'error') and normalize-space()='" + expectedError + "']");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         WebElement error =  wait.until(ExpectedConditions.visibilityOfElementLocated(errorMessage));
         return error.getText();
