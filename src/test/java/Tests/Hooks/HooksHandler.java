@@ -55,7 +55,7 @@ public class HooksHandler extends BaseTest {
     @AfterStep
     public void checkFail(Scenario scenario) throws IOException {
         if (scenario.isFailed()){
-            File scrshoot = ScreenShot.takeScreenShot(driver, "screenshots/"+scenario.getName()+".png");
+            File scrshoot = ScreenShot.takeScreenShot(driver, "screenShots/"+scenario.getName()+".png");
             Allure.addAttachment("ScreenShot" , new FileInputStream(scrshoot));
         }
     }
